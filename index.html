@@ -59,6 +59,20 @@
             margin-right: 6px;
             color: var(--primary);
         }
+        .download-btn {
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #1d4ed8;
+        }
 
         .summary {
             background: white;
@@ -200,6 +214,7 @@
                 <div><a href="https://linkedin.com/in/rajkumaryadav99" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/rajkumaryadav99</a></div>
                 <div><a href="https://github.com/RAJ5734" target="_blank"><i class="fab fa-github"></i> github.com/RAJ5734</a></div>
             </div>
+            <a href="Rajkumaryadav_Devops_resume.pdf" download="RajKumarYadav_Resume.pdf" class="download-btn">Download Resume</a>
         </header>
 
         <div class="summary">
@@ -207,7 +222,7 @@
         </div>
 
         <div class="main-content">
-            <section>
+            <section id="experience">
                 <h3>Work Experience</h3>
                 <div class="job">
                     <h4>Assistant Manager (DevOps & Cloud)</h4>
@@ -234,7 +249,7 @@
                 </div>
             </section>
 
-            <section>
+            <section id="skills">
                 <h3>Skills</h3>
                 <div class="skills-grid">
                     <div class="skill">AWS</div>
@@ -256,7 +271,7 @@
                 </div>
             </section>
 
-            <section class="project-demo">
+            <section id="projects" class="project-demo">
                 <h3>Projects & DevOps Demo</h3>
                 <h4>Automated CI/CD Pipeline for Microservices</h4>
                 <p>This project demonstrates a complete DevOps workflow for deploying microservices using CI/CD pipelines. It includes automation for build, test, and deployment, containerization with Docker, orchestration with Kubernetes, and GitOps with ArgoCD.</p>
@@ -274,7 +289,7 @@
                 <p><a href="https://github.com/RAJ5734" target="_blank">View Demo Code on GitHub</a></p>
             </section>
 
-            <section>
+            <section id="education">
                 <h3>Education</h3>
                 <div class="edu">
                     <h4>Bachelor of Engineering – Computer Science</h4>
@@ -283,7 +298,7 @@
                 </div>
             </section>
 
-            <section>
+            <section id="achievements">
                 <h3>Achievements & Certifications</h3>
                 <ul>
                     <li>AWS Certified Cloud Practitioner</li>
@@ -292,7 +307,7 @@
                 </ul>
             </section>
 
-            <section>
+            <section id="interests">
                 <h3>Interests</h3>
                 <p>Travel • Cloud Native Technologies • Automation • Open Source</p>
             </section>
